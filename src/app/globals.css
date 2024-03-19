@@ -24,6 +24,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  transform: scale(3); /* Ajusta el valor de escala según necesites */
+  transform-origin: top left; /* Est o define el punto desde el cual se realizará la transformación */
 }
 
 @layer utilities {
